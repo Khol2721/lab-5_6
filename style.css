@@ -295,6 +295,9 @@ h1 {
 .portfolio__item {
   margin: 0 0 100px;
 }
+.portfolio__item2 {
+  margin: 0 0 10px;
+}
 
 .portfolio__logo {
   width: 100%;
@@ -315,6 +318,8 @@ h1 {
 
 .contacts__btn {
   margin: 0 auto;
+  font-family: 'Gilroy';
+  font-size: 18px;
   padding: 13px 28px;
   width: auto;
   color: #fff;
