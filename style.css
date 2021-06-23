@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'Gilroy';
+    font-weight: 700;
+    src: url("fonts/gilroy-bold.woff2") format("woff2"), url("fonts/gilroy-bold.woff") format("woff"), url("fonts/gilroy-bold.ttf") format("truetype");
+  }
+  
+  @font-face {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    src: url("fonts/gilroy-medium.woff2") format("woff2"), url("fonts/gilroy-medium.woff") format("woff"), url("fonts/gilroy-medium.ttf") format("truetype");
+  }
+  
+.grey_bg {
+    background-color: #F6F6F6;
+}
+
+body {
+    margin: 0;
+}
+
+.format {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 945px;
+}
+
+.nav_element {
+    display: block;
+    height: 23px;
+    position: relative;
+    font: 18px Gilroy;
+    line-height: 22px;
+    font-weight: bold;
+    color: #828282;
+}
+
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+    height: 88px;
+}
+
+.more {
+    display: none;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 188px;
+}
+
+div.denis {
+    height: 118px;
+    width: 123px;
+    font: 47px Gilroy;
+    font-weight: bold;
+    line-height: 59px;
+}
+
+.Denis {
+    justify-content: left;
+    transform: translate(0, 40px);
+}
+
+.novik {
+    display: block;
+    height: 44px;
+    width: 170px;
+    bottom: 50px;
+    transform: translate(0, 95px);
+    font: 18px Gilroy;
+    line-height: 22px;
+}
+
+.novik_m {
+    display: none;
+}
+
+.lang {
+    display: flex;
+    transform: rotate(-90deg) translate(-93px, 30px);
+    width: 80px;
+    height: 20px;
+    font: 16px Gilroy;
+    font-weight: bold;
+    line-height: 20px;
+}
+.gr_ru{
+    color: #828282;
+    margin-right: 4px;
+}
+.menu {
+    display: none;
+}
+
+.close_menu {
+    display: none;
+}
+
+img.denis {
+    display: block;
+    width: 100%;
+    margin-bottom: 104px;
+}
+
+img.denis_m {
+    display: none;
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 120px;
+    margin-bottom: 18px;
+    width: 170px;
+    height: 43px;
+    font: 34px Gilroy;
+    font-weight: bold;
+    line-height: 42px;
+}
+
+.hi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 485px;
+    height: 218px;
+    font: 18px Gilroy;
+    text-align: center;
+    line-height: 22px;
+    padding-bottom: 107px;
+}
+
+.hi_m {
+    display: none;
+}
+
+.skills {
+    text-align: center;
+    width: 125px;
+    height: 26px;
+    margin-top: 91px;
+    font: 34px Gilroy;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 42px;
+}
+
+.work {
+    text-align: center;
+    height: 24px;
+    width: 228px;
+    font: 18px Gilroy;
+    margin: 69px auto 83px;
+    line-height: 22px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.program {
+    width: 174px;
+    margin-bottom: 110px;
+}
+
+img.program {
+    height: 90px;
+    width: 90px;
+    transform: translate(44px, 0);
+}
+
+.sign {
+    height: 28px;
+    font: 14px Gilroy;
+    color: #828282;
+    font-weight: bold;
+    margin: 24px auto 40px;
+    text-align: center;
+    line-height: 17px;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-around;
+}
+
+.star {
+    width: 26px;
+    height: 26px;
+    border-radius: 1px;
+}
+
+.portfolio {
+    text-align: center;
+    height: 43px;
+    width: 150px;
+    padding-top: 113px;
+    margin-bottom: 47px;
+    font: 34px Gilroy;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 42px;
+}
+
+.portf {
+    width: 100%;
+}
+
+.port {
+    height: 22px;
+    font: 18px Gilroy;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 99px;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 22px;
+}
+
+.contact {
+    height: 43px;
+    width: 146px;
+    font: 34px Gilroy;
+    font-weight: bold;
+    margin: 114px auto 20px;
+    line-height: 42px;
+}
+
+.quest {
+    height: 44px;
+    width: 275px;
+    font: 18px Gilroy;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 22px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 23px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 42px;
+    background-color: black;
+    color: white;
+    font: 18px Gilroy;
+    font-weight: bold;
+    margin: 30px auto 86px;
+    line-height: 22px;
+}
+
+.socials {
+    width: 345px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+    transform: translate(20px, 0);
+}
+
+.border {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    transform: translate(-20px, 0);
+}
+
+.footer_text {
+    width: 243px;
+    height: 34px;
+    color: #828282;
+    line-height: 17px;
+    font: 14px Gilroy;
+    margin: 46px auto 123px;
+    text-align: center;
+    line-height: 17px;
+}
